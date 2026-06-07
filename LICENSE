@@ -1,8 +1,6 @@
 GNU GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
 
-Copyright (C) 2025-2026 anten-ka and contributors
-Copyright (C) 2026 qwerokip-wq and contributors
 Copyright (C) 2026 swr8bit
 
 This program is free software: you can redistribute it and/or modify
@@ -19,15 +17,15 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 ======================================================================= 
-go-v is a fork of goVLESS (bash-installer for 3X-UI + Xray)
+self-signed-cert-3x-ui is a modified version 
+of self-signed-cert-script-by-antenka
 
-This program is based on:
-  - Original work by anten-ka: https://github.com/anten-ka/goVLESS
-  - Repository by qwerokip-wq: https://github.com/qwerokip-wq/goVLESS
+This program is based on original work by anten-ka: 
+        https://github.com/anten-ka/self-signed-cert-script-by-antenka
 
 This project bundles and depends on:
-  - 3X-UI[](https://github.com/MHSanaei/3x-ui) — licensed under GPL-3.0
-  - Xray-core[](https://github.com/XTLS/Xray-core) — licensed under MPL-2.0
+  - 3X-UI (https://github.com/MHSanaei/3x-ui) — licensed under GPL-3.0
+  - Xray-core (https://github.com/XTLS/Xray-core) — licensed under MPL-2.0
 
 Their licenses apply to their respective parts. The combined work is
 distributed under GNU GPL v3.
