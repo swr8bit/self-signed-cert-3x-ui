@@ -19,7 +19,7 @@
 ```bash
 sudo apt update && sudo apt install -y git curl openssl qrencode systemd && rm -rf ~/self-signed-cert-3x-ui && git clone https://github.com/swr8bit/self-signed-cert-3x-ui.git && cd self-signed-cert-3x-ui && chmod +x self_signed_cert.sh && sudo ./self_signed_cert.sh
 ```
-### Если вы не root
+#### Если вы не root
 ```bash
 sudo -i apt update && sudo apt install -y git curl openssl qrencode systemd && rm -rf ~/self-signed-cert-3x-ui && git clone https://github.com/swr8bit/self-signed-cert-3x-ui.git && cd self-signed-cert-3x-ui && chmod +x self_signed_cert.sh && ./self_signed_cert.sh
 ```
@@ -28,7 +28,7 @@ sudo -i apt update && sudo apt install -y git curl openssl qrencode systemd && r
 ```bash
 sudo apt update && sudo apt install -y git curl openssl systemd && rm -rf ~/self-signed-cert-3x-ui && git clone https://github.com/swr8bit/self-signed-cert-3x-ui.git && cd self-signed-cert-3x-ui && chmod +x self_signed_cert_only.sh && sudo ./self_signed_cert_only.sh
 ```
-### Если вы не root
+#### Если вы не root
 ```bash
 sudo -i apt update && sudo apt install -y git curl openssl systemd && rm -rf ~/self-signed-cert-3x-ui && git clone https://github.com/swr8bit/self-signed-cert-3x-ui.git && cd self-signed-cert-3x-ui && chmod +x self_signed_cert_only.sh && ./self_signed_cert_only.sh
 ```
@@ -40,7 +40,7 @@ sudo -i apt update && sudo apt install -y git curl openssl systemd && rm -rf ~/s
 
 Мои собственные изменения и дополнения к этому коду распространяются под лицензией GNU General Public License v3.0 or later. Полный текст лицензии доступен в файле LICENSE
 
-## Зависимости и лицензии
+### Зависимости и лицензии
 
 Данный скрипт устанавливает и настраивает следующие сторонние компоненты:
 
