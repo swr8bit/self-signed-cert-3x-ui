@@ -30,7 +30,8 @@ KEY_PATH="$CERT_DIR/$CERT_NAME.key"
 openssl req -x509 -nodes -days $DAYS_VALID -newkey rsa:2048 \
   -keyout "$KEY_PATH" \
   -out "$CERT_PATH" \
-  -subj "/C=US/ST=State/L=City/O=Organization/OU=Department/CN=example.com"
+  -subj "/C=US/ST=State/L=City/O=Organization/OU=Department/CN=0.0.0.0" \
+  -addext "subjectAltName=IP:0.0.0.0"
 
 if [ $? -eq 0 ]; then
   echo "SSL CERTIFICATE PATH: $CERT_PATH"
