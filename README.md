@@ -19,10 +19,18 @@
 ```bash
 sudo apt update && sudo apt install -y git curl openssl qrencode systemd && rm -rf ~/self-signed-cert-3x-ui && git clone https://github.com/swr8bit/self-signed-cert-3x-ui.git && cd self-signed-cert-3x-ui && chmod +x self_signed_cert.sh && sudo ./self_signed_cert.sh
 ```
+### Если вы не root
+```bash
+sudo -i apt update && sudo apt install -y git curl openssl qrencode systemd && rm -rf ~/self-signed-cert-3x-ui && git clone https://github.com/swr8bit/self-signed-cert-3x-ui.git && cd self-signed-cert-3x-ui && chmod +x self_signed_cert.sh && ./self_signed_cert.sh
+```
 
 ### 2 Установка - только сертификаты панели
 ```bash
 sudo apt update && sudo apt install -y git curl openssl systemd && rm -rf ~/self-signed-cert-3x-ui && git clone https://github.com/swr8bit/self-signed-cert-3x-ui.git && cd self-signed-cert-3x-ui && chmod +x self_signed_cert_only.sh && sudo ./self_signed_cert_only.sh
+```
+### Если вы не root
+```bash
+sudo -i apt update && sudo apt install -y git curl openssl systemd && rm -rf ~/self-signed-cert-3x-ui && git clone https://github.com/swr8bit/self-signed-cert-3x-ui.git && cd self-signed-cert-3x-ui && chmod +x self_signed_cert_only.sh && ./self_signed_cert_only.sh
 ```
 
 ---
