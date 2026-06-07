@@ -16,15 +16,6 @@ wait_for_enter() {
   read -r
 }
 
-# Запуск 3X-UI
-systemctl daemon-reload
-if systemctl list-units --full -all | grep -Fq 'x-ui.service'; then
-  systemctl enable x-ui
-  systemctl start x-ui
-else
-  x-ui
-fi
-
 # Разделитель из 3 строк
 for i in {1..3}; do echo "============================================================"; done
 
