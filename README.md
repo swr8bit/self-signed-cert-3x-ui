@@ -20,12 +20,13 @@
 sudo apt update && sudo apt install -y git curl openssl qrencode systemd && rm -rf ~/self-signed-cert-3x-ui && git clone https://github.com/swr8bit/self-signed-cert-3x-ui.git && cd self-signed-cert-3x-ui && chmod +x self_signed_cert.sh && sudo ./self_signed_cert.sh
 ```
 
-
+### =======================================================
 ### 2 Установка - только сертификаты панели
 ```bash
 sudo apt update && sudo apt install -y git curl openssl systemd && rm -rf ~/self-signed-cert-3x-ui && git clone https://github.com/swr8bit/self-signed-cert-3x-ui.git && cd self-signed-cert-3x-ui && chmod +x self_signed_cert_only.sh && sudo ./self_signed_cert_only.sh
 ```
-### =======================================================
+
+---
 
 ### Важное уведомление об авторских правах
 Данный проект включает в себя исходный код, созданный пользователем anten-ka (https://github.com/anten-ka). Этот код не содержит явной лицензии на использование. В соответствии с действующим законодательством об авторском праве, все права на оригинальный код принадлежат его создателю.
