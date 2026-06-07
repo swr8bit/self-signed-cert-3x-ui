@@ -18,7 +18,7 @@ wait_for_enter() {
 
 # Установка 3X-UI
 if ! command -v x-ui &> /dev/null; then
-  bash <(curl -Ls https://raw.githubusercontent.com/MHSanaei/3x-ui/refs/tags/v2.6.0/install.sh)
+  bash <(curl -Ls https://raw.githubusercontent.com/MHSanaei/3x-ui/refs/tags/v2.9.4/install.sh)
   if [ $? -ne 0 ]; then
     exit 1
   fi
