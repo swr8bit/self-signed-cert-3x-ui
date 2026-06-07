@@ -36,7 +36,7 @@ sudo apt update && sudo apt install -y git curl openssl systemd && rm -rf ~/self
 
 Данный скрипт устанавливает и настраивает следующие сторонние компоненты:
 
-- **[3X-UI](https://github.com/MHSanaei/3x-ui)** — панель управления Xray. Распространяется под лицензией **GPL-3.0**[citation:1][citation:4][citation:6].
-- **[Xray-core](https://github.com/XTLS/Xray-core)** — прокси-платформа. Распространяется под лицензией **MPL-2.0** (Mozilla Public License 2.0)[citation:2][citation:7].
+- **[3X-UI](https://github.com/MHSanaei/3x-ui)** — панель управления Xray. Распространяется под лицензией **GPL-3.0**.
+- **[Xray-core](https://github.com/XTLS/Xray-core)** — прокси-платформа. Распространяется под лицензией **MPL-2.0** (Mozilla Public License 2.0).
 
 Оригинальные лицензии этих проектов применяются к их коду и сохраняют силу. Данный скрипт является лишь установщиком и не изменяет условия лицензирования указанных проектов.
